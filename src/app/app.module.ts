@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
-import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
@@ -12,6 +11,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { NavComponent } from './pages/nav/nav.component';
 
 
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
